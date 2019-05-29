@@ -1,0 +1,27 @@
+---
+layout: default
+title: The Crew
+permalink: /crew
+---
+
+<main role="main" class="inner cover">
+    <h1 class="cover-heading textglitch active">
+        <a class="textglitch-link blur" data-content="The Crew" href="/">
+            <span>The Crew</span>
+        </a>
+    </h1>
+
+    <p class="lead">Los batos detras de batos jugando:</p>
+
+    <p class="lead">
+        <ul>
+            {% for item in site.crew %}
+                <li>
+                    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        {{ item.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </p>
+</main>
