@@ -40,6 +40,15 @@ menu:
   - title: Crew
     url: /crew
 
+# Fill later (new page) 
+others:
+  - title: Gran Pregunta
+    description: 'Simplemente preguntas random para iniciar un buen dia.'
+    url: 'http://granpregunta.com'
+  - title: Frases del Erick
+    description: 'Hay un dude que dice MUCHAS cosas y cuando lo escucha alguna persona, tuitea sus frases.'
+    url: 'https://frasesdelerick.com'
+
 crew:
   - title: El oso (jmsalcido)
     url: https://twitter.com/jmsalcido
