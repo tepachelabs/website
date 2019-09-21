@@ -28,6 +28,9 @@ menu:
     url: /
   - title: Podcast
     url: /podcast
+  - title: Discord
+    url: http://discord.batosjugando.com
+    external: true
   - title: Twitch
     url: https://www.twitch.tv/batosjugando
     external: true
