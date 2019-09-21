@@ -37,9 +37,6 @@ menu:
   - title: Twitter
     url: https://twitter.com/batosjugando
     external: true
-  - title: Youtube
-    url: https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w
-    external: true
   - title: Crew
     url: /crew
 
