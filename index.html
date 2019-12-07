@@ -3,7 +3,23 @@ layout: default
 ---
 
 <main role="main" class="inner cover">
-    <iframe src="https://streamlabs.com/batosjugando" width="960px" height="800px"></iframe>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "batosjugando",
+        layout: "video-with-chat",
+        theme: "dark"
+      });
+    </script>
+    
     <p class="lead">
         Link Directo: <a href="https://streamlabs.com/batosjugando">https://streamlabs.com/batosjugando</a>
     </p>
