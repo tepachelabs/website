@@ -28,6 +28,8 @@ menu:
     url: /
   - title: Podcast
     url: /podcast
+  - title: Quedate en Casa
+    url: /recursos-para-quedarse-en-casa
   - title: Discord
     url: http://discord.batosjugando.com
     external: true
@@ -37,9 +39,9 @@ menu:
   - title: Twitter
     url: https://twitter.com/batosjugando
     external: true
-  - title: YT
-    url: https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w
-    external: true
+#  - title: YT
+#    url: https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w
+#    external: true
   - title: Crew
     url: /crew
 
