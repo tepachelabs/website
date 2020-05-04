@@ -1,18 +1,22 @@
 ---
 layout: page
 title: About
-permalink: /about/
+comments: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This website is built with Jekyll and "Affiliates" (a Jekyll Template designed & developed by WowThemes.net). It is meant for demonstration purposes, so you can have an idea of how this theme looks in action so no real content can be found. Affiliates template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github. This page in example shows a page layout.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**License & Download**
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+"Affiliates" for Jekyll is designed and developed by WowThemes.net and it is *free* for personal use.
 
+<a href="https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip" target="_blank">Download - Affiliates Jekyll Theme</a>
 
-[jekyll-organization]: https://github.com/jekyll
+![jekyll template mediumish]({{site.baseurl}}/assets/images/theme1.jpg)
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/theme2.jpg)
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/theme3.jpg)
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/theme4.jpg)
+

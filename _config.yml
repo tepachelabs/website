@@ -1,83 +1,90 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site
+name: "Batos Jugando"
+title: "Batos Jugando"
+description: "Somos un grupo de fanáticos de los videojuegos, transmitimos nuestras partidas por streaming, publicamos un podcast semanal llamado El Hongo Verde, componemos música, creamos videojuegos, a veces también publicamos arte digital, etc. Bien inquietos somos los Batos Jugando."
+meta_description: "Somos un grupo de fanáticos de los videojuegos, transmitimos nuestras partidas por streaming, publicamos un podcast semanal llamado El Hongo Verde, componemos música, creamos videojuegos, a veces también publicamos arte digital, etc. Bien inquietos somos los Batos Jugando."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+paginate: 6
+baseurl: '/'
+email: 'hola@gatomocho.com'
+google_analytics: 'UA-165370115-1'
+disqus: 'batosjugando'
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Batos Jugando
-email: hola@batosjugando.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Somos un grupo de gente que juega videojuegos, transmite sus
-  partidas y comenta cosas en el podcast.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://batosjugando.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitch: https://www.twitch.tv/batosjugando
-podcast: /podcast
-
+# Links
 menu:
-  - title: Home
+  - title: Inicio
     url: /
   - title: Podcast
     url: /podcast
   - title: Quedate en Casa
-    url: /recursos-para-quedarse-en-casa
+    url: /en-casa
   - title: Discord
     url: http://discord.batosjugando.com
     external: true
-  - title: Twitch
-    url: https://www.twitch.tv/batosjugando
+  - title: Patreon
+    url: https://www.patreon.com/elhongoverde
     external: true
+
+# Sidebar > Cyber-Amigos
+cyber-amigos:
+  - title: GatoMocho Game Studio
+    url: https://gatomocho.com
+  - title: Rancheros Tiernos
+    url: https://anchor.fm/rancherostiernos/
+  - title: Maleducados
+    url: https://www.instagram.com/maleducados/
+  - title: Gato Gordo
+    url: https://www.instagram.com/gatogordocc/
+
+# Sidebar > Recomendado
+recomendado:
+  - title: "Valorya: The Blacksmith"
+    image: https://i.imgur.com/KWZ1WyJ.png
+    url: https://gatomocho.com/game/valorya-blacksmith
+
+# Footer > Nuestras Redes
+redes:
+  - title: Discord
+    icon: "fa fa-comment"
+    url: http://discord.batosjugando.com
   - title: Twitter
-    url: https://twitter.com/batosjugando
-    external: true
-#  - title: YT
-#    url: https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w
-#    external: true
-  - title: Crew
-    url: /crew
+    icon: "fa fa-twitter"
+    url: https://www.twitter.com/batosjugando
+  - title: Twitch
+    icon: "fa fa-twitch"
+    url: https://www.twitch.tv/batosjugando
+  - title: Instagram
+    icon: "fa fa-instagram"
+    url: https://www.instagram.com/batosjugando
+  - title: Facebook
+    icon: "fa fa-facebook"
+    url: https://www.facebook.com/batosquejuegan
+  - title: Youtube
+    icon: "fa fa-youtube"
+    url: https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w
 
-# Fill later (new page) 
-others:
-  - title: Gran Pregunta
-    description: 'Simplemente preguntas random para iniciar un buen dia.'
-    url: 'http://granpregunta.com'
-  - title: Frases del Erick
-    description: 'Hay un dude que dice MUCHAS cosas y cuando lo escucha alguna persona, tuitea sus frases.'
-    url: 'https://frasesdelerick.com'
-
-crew:
-  - title: El oso (jmsalcido)
-    url: https://twitter.com/jmsalcido
-  - title: Pozolito (tony)
-    url: https://twitter.com/_tonymtz
-  - title: TheMuppet
-    url:
-  - title: Gallo Negro (Carlos The Human)
-    url: https://twitter.com/CarlosTheHuman
-
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+collections:
+  pages:
+    output: true
+    permalink: /page/:name
+    
+# Other
+markdown: kramdown
+highlighter: rouge

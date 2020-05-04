@@ -1,0 +1,24 @@
+<div class="sidebar">
+
+        <div class="sidebar-section">
+            <h5><span>Cyber Amigos</span></h5>
+            <ul style="list-none;">
+                {% for item in site.cyber-amigos %}
+                <li>
+                    <a target="_blank" href="{{ item.url }}">{{item.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+             <h5><span>Recomendado</span></h5>
+            {% for item in site.recomendado %}
+            <a href="{{ item.url }}" title="{{item.title}}">
+                <img src="{{item.image}}" alt="{{item.title}}" />
+            </a>
+            &nbsp;
+            {% endfor %}
+        </div>
+
+</div>

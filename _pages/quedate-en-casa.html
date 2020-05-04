@@ -1,0 +1,38 @@
+---
+layout: default
+title: Quédate en casa
+permalink: /en-casa
+---
+
+<!-- Home Jumbotron
+================================================== -->
+<section class="intro full-width">
+    <div class="wrapintro">
+        <h1>Quédate en casa 🏡</h1>
+        <h2 class="lead">El COVID-19 es cosa seria, pero entre todos lo lograremos.</h2>
+    </div>
+</section>
+
+<section class="recent-posts row">
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-sm-8">
+        <div class="article-post">
+            <h4>¿Juegos gratis?. Si, juegos gratis.</h4>
+
+            <p>Muchas empresas de videojuegos están regalando juegos para que nos quedemos en casa. Sé parte del
+                movimiento y cuida a los de tu alrededor quedándote en casa jugando!</p>
+        </div>
+
+        <div class="list-group list-group-flush">
+            {% for game in site.data.free_games %}
+                <a href="{{game.url}}" class="list-group-item list-group-item-action" target="_blank">
+                    <b>≫ {{game.title}}</b>
+                    {{game.description}}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

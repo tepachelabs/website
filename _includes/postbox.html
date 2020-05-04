@@ -1,0 +1,41 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+<div class="col-md-6 grid-item">
+<div class="card">
+    {% if post.external %}
+        <a href="{{ post.link }}">
+            {% if post.image %} <img class="img-fluid" src="{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+        </a>
+    {% else %}
+        <a href="{{ post.url | absolute_url }}">
+            {% if post.image %} <img class="img-fluid" src="{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+        </a>
+    {% endif %}
+    <div class="card-block">
+        <h2 class="card-title">
+            {% if post.external %}
+                <a href="{{ post.link }}">{{ post.title }}</a>
+            {% else %}
+                <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+            {% endif %}
+        </h2>
+        <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+        <div class="metafooter">
+            <div class="wrapfooter">
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                </span>
+                <span class="post-read-more">
+                    {% if post.external %}
+                        <a href="{{ post.link }}" title="Read Story"><i class="fa fa-link"></i></a>
+                    {% else %}
+                        <a href="{{ post.url | absolute_url }}" title="Read Story"><i class="fa fa-link"></i></a>
+                    {% endif %}
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end post -->

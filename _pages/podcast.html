@@ -1,0 +1,78 @@
+---
+layout: default
+title: El Hongo Verde
+permalink: /podcast
+---
+
+<!-- Home Jumbotron
+================================================== -->
+<section class="green intro full-width">
+    <div class="wrapintro">
+        <h1>El Hongo Verde</h1>
+        <img src="/assets/images/hongo-verde-logo.png" alt="El Hongo Verde Logo"/>
+        <h2 class="lead">El podcast semanal de la casa, grabado con mucho amor.</h2>
+        <p>Noticias y discusión de videojuegos, desarrollo de software, anécdotas del norte de México, y una que otra
+            broma de muy mala calidad.</p>
+        <p><i>Hosts: Antonio Martinez y Jose Salcido.</i></p>
+        <p>Disponible en las <a href="https://anchor.fm/elhongoverde">principales plataformas de Streaming</a>.</p>
+        <iframe src="https://anchor.fm/elhongoverde/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+    </div>
+</section>
+
+<section class="recent-posts row">
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-sm-8">
+
+        <div class="section-title">
+            <h2><span>Episodios pasados</span></h2>
+        </div>
+
+        <div id="feed" class="list-group list-group-flush">
+            <a id="zombie" style="display: none;" href="#" class="list-group-item list-group-item-action">
+                <img alt="epidose thumbnail" class="mr-2 rounded" style="width: 32px; height: 32px;" src="">
+                <span class="title"></span>
+            </a>
+
+            <a id="loading" href="https://anchor.fm/elhongoverde" class="list-group-item list-group-item-action">
+                Cargando la información. Si después de 3 segundos no funciona, haz click aquí.
+            </a>
+        </div>
+    </div>
+</section>
+
+<script>
+    var $feed = document.querySelector('#feed');
+    var $zombie = document.querySelector('#zombie');
+    var $loading = document.querySelector('#loading');
+    if ($feed) {
+        var feed = 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%2Fb9a2b48%2Fpodcast%2Frss&api_key=qb2tkp8x7vbwjfvo1hil6xmkhsjqxkl153xv0o1s&order_by=pubDate&count=100';
+        var request = new XMLHttpRequest();
+        request.open('GET', feed, true);
+        request.onload = function() {
+            if (this.status >= 200 && this.status < 400) {
+                // Success!
+                var data = JSON.parse(this.response);
+                console.log(data);
+                data.items.forEach(function(episode) {
+                    var element = $zombie.cloneNode(true);
+                    element.removeAttribute('id');
+                    element.href = episode.link;
+                    element.querySelector('img').src = episode.thumbnail;
+                    element.querySelector('.title').innerHTML = episode.title;
+                    element.removeAttribute('style');
+                    $feed.appendChild(element);
+                });
+                $loading.remove();
+            } else {
+                // We reached our target server, but it returned an error
+            }
+        };
+        request.onerror = function() {
+            // There was a connection error of some sort
+        };
+        request.send();
+    }
+</script>

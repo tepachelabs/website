@@ -1,21 +1,88 @@
 ---
 layout: default
+title: Inicio
 ---
 
-<main role="main" class="inner cover">
-    
-     <h1 class="cover-heading textglitch active">
-        <a class="textglitch-link blur" data-content="{{ site.title }}" href="/">
-            <span>{{ site.title }}</span>
-        </a>
-    </h1>
+<!-- Home Jumbotron
+================================================== -->
+<!--<section class="intro full-width">-->
+<!--    <div class="wrapintro">-->
+<!--        <h1>El Hongo Verde</h1>-->
+<!--        <h2 class="lead">El podcast de la casa. Disponible en las principales plataformas de Streaming.</h2>-->
+<!--        <a href="https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip" class="btn">Download</a>-->
+<!--    </div>-->
+<!--</section>-->
 
-    <p class="lead">
-        Somos un grupo de gente que juega videojuegos y con el internet, 
-        <a href="{{ site.twitch }}" target="_blank" rel="noopener noreferrer">transmite</a> sus partidas y
-        comenta cosas en el <a href="{{ site.podcast }}">podcast</a>.
-    </p>
-<!--            <p class="lead">-->
-<!--                <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
-<!--            </p>-->
-</main>
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+
+    <div class="section-title">
+        <h2><span>Destacado</span></h2>
+    </div>
+
+    <div class="row listfeaturedtag">
+
+        {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+        {% include featuredbox.html %}
+
+        {% endif %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Posts Index
+================================================== -->
+{% if paginator.previous_page %}
+{% if paginator.previous_page > 0 %}
+<div id="jumptopageof"></div>
+{% endif %}
+{% endif %}
+
+<section class="recent-posts row">
+
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-sm-8">
+
+        <div class="section-title">
+            <h2><span>Historias</span></h2>
+        </div>
+
+        <div class="masonrygrid row listrecent">
+
+            {% for post in paginator.posts %}
+
+            {% unless post.featured == true %}
+
+            {% include postbox.html %}
+
+            {% endunless %}
+
+            {% endfor %}
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="bottompagination">
+
+            <span class="navigation" role="navigation">
+
+                {% include pagination.html %}
+
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
