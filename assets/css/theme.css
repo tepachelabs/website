@@ -872,6 +872,12 @@ iframe {
     display: inline-block;
 }
 
+@media (max-width:576px) {
+    .infographic .card {
+        width: 100%;
+    }
+}
+
 .infographic .card .card-color-frame {
     position: absolute;
     left: 0;
