@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "La historia detrás de Links's Awakening"
+title:  "La historia detrás de Link's Awakening"
 categories: [ articulo ]
 image: https://i.imgur.com/L309nZD.png
 infographic:
@@ -47,4 +47,4 @@ infographic:
 
 ---
 
-Ésta es la historia detrás del lanzamiento de Link's Awakening, el mismo que pusimos en Twitter y ya casi muere sepultado entre otros tweets.
+Ésta es la historia detrás del lanzamiento de Link's Awakening. El mismo thread que pusimos en Twitter que hemos rescatado para que no muera sepultado entre otros tweets.
