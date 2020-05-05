@@ -47,7 +47,14 @@ post_class: post-template
 			<!-- Post Content -->
 			<div class="article-post">
 				{{content}}
+
                 <div class="clearfix"></div>
+
+                {% if page.infographic %}
+                    {% include infographic.html %}
+                    <div class="clearfix"></div>
+                {% endif %}
+
 			</div>
 
             <!-- Post Date -->
