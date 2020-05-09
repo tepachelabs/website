@@ -323,8 +323,8 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    background-image:url(../images/head.png);
-    background-size:cover;
+    background: rgb(227,64,145);
+    background: linear-gradient(135deg, rgba(227,64,145,1) 0%, rgba(91,173,221,1) 100%);
     padding: 9rem 0;
     margin-top:-87px;
     margin-bottom:3.5rem;
@@ -332,7 +332,8 @@ span.post-name a,span.post-read-more a:hover {
     position: relative;
 }
 .intro.green {
-    background-image:url(../images/green-head.png);
+    background: rgb(136,197,139);
+    background: linear-gradient(135deg, rgba(136,197,139,1) 0%, rgba(220,202,153,1) 100%);
 }
 .intro .btn {
     background: #fff100;
