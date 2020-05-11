@@ -520,12 +520,24 @@ blockquote {
 .card {
 	border-radius:4px;
     margin-bottom: 30px;
-    box-shadow:0 0px 1px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.05);
     border:0;
+}
+.card:hover,
+.card:active,
+.card:focus {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
 }
 .card .img-thumb {
 	border-top-right-radius:4px;
 	border-top-left-radius:4px;
+}
+.card .card-body {
+    padding: 12px;
+}
+a.no-style {
+    color: #333;
+    text-decoration: none;
 }
 ul.tags {
 	list-style:none;
@@ -860,7 +872,7 @@ iframe {
     .sidebar {max-width:100%;}
     .copyright .pull-left, .copyright .pull-right {float:none;}
     .beforefooter {text-align:center;}
-    .beforefooter .footersocial { text-align: center !important;    margin-top: 1rem; }    
+    .beforefooter .footersocial { text-align: center !important;    margin-top: 1rem; }
     .form-group .col-md-6:first-child {   margin-bottom: 1rem;}
 
 }

@@ -27,11 +27,34 @@ permalink: /en-casa
         </div>
 
         <div class="list-group list-group-flush">
-            {% for game in site.data.free_games %}
-                <a href="{{game.url}}" class="list-group-item list-group-item-action" target="_blank">
-                    <b>≫ {{game.title}}</b>
-                    {{game.description}}
+            {% for game in site.data.free_games.seasonal %}
+            <a href="{{game.url}}" class="list-group-item list-group-item-action" target="_blank">
+                <b>≫ {{game.title}}</b>
+                {{game.description}}
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="article-post">
+            <br/>
+            <h4>Los de siempre</h4>
+            <p>También recomendamos los siguientes juegos <b>free-to-play</b>. Siempre gratuitos, siempre disponibles.</p>
+        </div>
+
+        <div class="row">
+            {% for game in site.data.free_games.permanent %}
+            <div class="col-6 col-md-4">
+                <a class="no-style" href="{{game.url}}" target="_blank">
+                    <div class="card">
+                        <img class="card-img-top" src="{{game.image}}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{game.title}}</h5>
+                            <p class="card-text">{{game.description}}</p>
+                            <p><small><i>Te lo recomienda: {{game.author}}</i></small></p>
+                        </div>
+                    </div>
                 </a>
+            </div>
             {% endfor %}
         </div>
     </div>

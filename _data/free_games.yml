@@ -1,18 +1,43 @@
-- title: "Epic Store: Death Coming"
-  description: Un divertido juego de puzzles con un humor un poco negro y muy geniales gráficos estilo 16 bits.
-  url: https://www.epicgames.com/store/en-US/product/death-coming/home
-- title: "Ashes of the Singularity: Escalation"
-  description: Juego de estrategia en tiempo real de escala masiva y opción multi jugador en línea.
-  url: https://www.humblebundle.com/store/ashes-of-the-singularity-escalation-free-game
-- title: Epic Store
-  description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
-  url: https://www.epicgames.com/store/
-- title: "Software Library: MS-DOS Games"
-  description: Internet Archive pone a tu disposición CIENTOS de clásicos de MS-DOS que podrás jugar en su emulador directo desde tu navegador.
-  url: https://archive.org/details/softwarelibrary_msdos_games
-- title: GOG.com - Stay at home and play some games.
-  description: Juegos gratuitos disponibles en GOG.com, hay varios clásicos de culto aquí.
-  url: https://www.gog.com/partner/stay_at_home
-- title: Itch.io - Games to help you stay inside
-  description: Juegos gratuitos disponibles en itch.io, la plataforma de juegos indies.
-  url: https://itch.io/c/757294/games-to-help-you-stay-inside
+seasonal:
+  - title: "Epic Store: Death Coming"
+    description: Un divertido juego de puzzles con un humor un poco negro y muy geniales gráficos estilo 16 bits.
+    url: https://www.epicgames.com/store/en-US/product/death-coming/home
+  - title: Epic Store
+    description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
+    url: https://www.epicgames.com/store/
+  - title: "Software Library: MS-DOS Games"
+    description: Internet Archive pone a tu disposición CIENTOS de clásicos de MS-DOS que podrás jugar en su emulador directo desde tu navegador.
+    url: https://archive.org/details/softwarelibrary_msdos_games
+  - title: GOG.com - Stay at home and play some games.
+    description: Juegos gratuitos disponibles en GOG.com, hay varios clásicos de culto aquí.
+    url: https://www.gog.com/partner/stay_at_home
+  - title: Itch.io - Games to help you stay inside
+    description: Juegos gratuitos disponibles en itch.io, la plataforma de juegos indies.
+    url: https://itch.io/c/757294/games-to-help-you-stay-inside
+
+permanent:
+  - title: League of Legends
+    description: Plays por la gloria, o ARAM de desempance. El que siempre terminamos jugando.
+    url: http://leagueoflegends.com/
+    image: https://i.imgur.com/3c3vZyI.png
+    author: Pozolito
+  - title: Valorant
+    description: El nuevo arena shooter de Riot. Muy buen juego, pero conseguirlo requerirá que veas otros streams.
+    url: https://playvalorant.com/
+    image: https://i.imgur.com/6WMW8nN.png
+    author: Pozolito
+  - title: Teamfight Tactics
+    description: TFT para los amigos. El auto-battler de Riot Games disponible para PC y móbiles.
+    url: https://lan.leagueoflegends.com/es/featured/events/teamfight-tactics
+    image: https://i.imgur.com/zdFod4z.png
+    author: Pozolito
+  - title: Paladins
+    description: Arena shooter muy semejante a Overwatch, pero gratis. A pesar de parecer clon, es muy bueno.
+    url: https://www.paladins.com/
+    image: https://i.imgur.com/9mz2UXr.png
+    author: Pozolito
+  - title: Heroes of the Storm
+    description: El MOBA de Blizzard. Muy diferente a otros como LoL, sus partidas se basan en misiones y son más rápidas.
+    url: https://heroesofthestorm.com/
+    image: https://i.imgur.com/lJBZDAP.png
+    author: Pozolito
