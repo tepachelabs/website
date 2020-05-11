@@ -20,29 +20,60 @@ permanent:
     description: Plays por la gloria, o ARAM de desempance. El que siempre terminamos jugando.
     url: http://leagueoflegends.com/
     image: https://i.imgur.com/3c3vZyI.png
+    platforms: PC
     author: Pozolito
   - title: Valorant
     description: El nuevo arena shooter de Riot. Muy buen juego, pero conseguirlo requerirá que veas otros streams.
     url: https://playvalorant.com/
     image: https://i.imgur.com/6WMW8nN.png
+    platforms: PC
     author: Pozolito
   - title: Teamfight Tactics
     description: TFT para los amigos. El auto-battler de Riot Games disponible para PC y móbiles.
     url: https://lan.leagueoflegends.com/es/featured/events/teamfight-tactics
     image: https://i.imgur.com/zdFod4z.png
+    platforms: PC, Android, iOS
     author: Pozolito
   - title: Paladins
     description: Arena shooter muy semejante a Overwatch, pero gratis. A pesar de parecer clon, es muy bueno.
     url: https://www.paladins.com/
     image: https://i.imgur.com/9mz2UXr.png
+    platforms: PC, Xbox One, PlayStation 4, Switch
     author: Pozolito
   - title: Heroes of the Storm
     description: El MOBA de Blizzard. Muy diferente a otros como LoL, sus partidas se basan en misiones y son más rápidas.
     url: https://heroesofthestorm.com/
     image: https://i.imgur.com/lJBZDAP.png
+    platforms: PC
     author: Pozolito
   - title: Slither.io
     description: Juego multijugador masivo de gusanos. Tienes que comerte a los demás.
     url: http://slither.io/
     image: https://i.imgur.com/oZ9oRKh.png
+    platforms: PC, Android, iOS
     author: Pozolito
+
+  - title: Let It Die
+    description: Un hack and slash roguelike, donde debes recorrer los pisos de una torre con combate que recuerda a la saga Souls.
+    url: https://store.steampowered.com/app/794600/LET_IT_DIE/
+    image: https://i.imgur.com/CyHTXb9.png
+    author: Canti
+    platforms: PC, PlayStation 4
+  - title: Warframe
+    description: Third person shooter (también tiene combate melee), con mucho contenido y una gran comunidad.
+    url: https://www.warframe.com/landing
+    image: https://i.imgur.com/QTpe9cP.png
+    platforms: PC, Xbox One, PlayStation 4, Switch
+    author: Canti
+  - title: Tetris 99
+    description: El clasico, ahora en forma de battle royal. Compites contra otros 98 jugadores, lanzando obstaculos mientras limpias tus lineas.
+    url: https://tetris99.nintendo.com/
+    image: https://i.imgur.com/R9sfoHB.png
+    platforms: Switch
+    author: Canti
+  - title: Fallout Shelter
+    description: Un juego basado en la saga Fallout, donde cuidas de tu propio refugio, administrando los recursos y a tus habitantes.
+    url: https://www.falloutshelter.com/
+    image: https://i.imgur.com/0zePqKT.png
+    platforms: PC, Xbox One, PlayStation 4, Switch, Android, iOS
+    author: Canti
