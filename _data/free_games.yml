@@ -41,3 +41,8 @@ permanent:
     url: https://heroesofthestorm.com/
     image: https://i.imgur.com/lJBZDAP.png
     author: Pozolito
+  - title: Slither.io
+    description: Juego multijugador masivo de gusanos. Tienes que comerte a los demás.
+    url: http://slither.io/
+    image: https://i.imgur.com/oZ9oRKh.png
+    author: Pozolito
