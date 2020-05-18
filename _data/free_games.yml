@@ -2,12 +2,12 @@ seasonal:
   - title: "Epic Store: Grand Theft Auto V"
     description: El rumor apuntaba que iban a regalar GTA V en Epic Store y no lo creimos... pero oh sorpresa! ve y obtén tu copia de este GRAN juego que sigue dando de que hablar!
     url: https://www.epicgames.com/store/en-US/product/grand-theft-auto-v/home
-  - title: Epic Store
-    description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
-    url: https://www.epicgames.com/store/
   - title: "Discovery Tour: Ancient Egypt"
     description: Discovery Tour de Assassins Creed esta esta disponible del 14 de Mayo al 21, obtenlo y vive este museo desde tu hogar.
     url: https://register.ubisoft.com/aco-discovery-tour/en-US
+  - title: Epic Store
+    description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
+    url: https://www.epicgames.com/store/
   - title: "Software Library: MS-DOS Games"
     description: Internet Archive pone a tu disposición CIENTOS de clásicos de MS-DOS que podrás jugar en su emulador directo desde tu navegador.
     url: https://archive.org/details/softwarelibrary_msdos_games
@@ -17,6 +17,9 @@ seasonal:
   - title: Itch.io - Games to help you stay inside
     description: Juegos gratuitos disponibles en itch.io, la plataforma de juegos indies.
     url: https://itch.io/c/757294/games-to-help-you-stay-inside
+  - title: Ubisoft Free Events
+    description: Cada tanto, Ubisoft también pone algunos de sus juegos gratis, en ésta página aparecen listados.
+    url: https://free.ubisoft.com/
 
 permanent:
   - title: League of Legends
