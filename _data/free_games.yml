@@ -1,10 +1,10 @@
 seasonal:
-  - title: "Epic Store: Civilization VI"
-    description: Juego de estrategia por turnos muy conocido por sus mecánicas tan profundas. Juega solo o en línea con amigos.
-    url: https://www.epicgames.com/store/en-US/product/sid-meiers-civilization-vi/home
-  - title: "10 Seconds Ninja X"
-    description: Un sidescroller hardcore. Eres un ninja y hay robots, tienes 10 segundos para destruirlos a todos.
-    url: https://store.steampowered.com/app/435790/10_Second_Ninja_X/
+  - title: "Borderlands: The Handsome Collection"
+    description: El bundle del shoot-and-loot más famoso de los últimos años, incluye Bordelands 2 y la llamada "pre-secuela".
+    url: https://www.epicgames.com/store/en-US/bundles/borderlands-the-handsome-collection
+  - title: "FARCRY 5"
+    description: Combate al culto apocalíptico que invade Hope County, Nevada en éste FPS de Ubisoft. Gratis para jugar por este fin de semana.
+    url: https://freeweekend.ubisoft.com/far-cry-5/
   - title: Epic Store
     description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
     url: https://www.epicgames.com/store/
