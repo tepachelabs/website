@@ -1,13 +1,7 @@
 seasonal:
-  - title: "Borderlands: The Handsome Collection"
-    description: El bundle del shoot-and-loot más famoso de los últimos años, incluye Bordelands 2 y la llamada "pre-secuela".
-    url: https://www.epicgames.com/store/en-US/bundles/borderlands-the-handsome-collection
-  - title: "FARCRY 5"
-    description: Combate al culto apocalíptico que invade Hope County, Nevada en éste FPS de Ubisoft. Gratis para jugar por este fin de semana.
-    url: https://freeweekend.ubisoft.com/far-cry-5/
-  - title: "Showdown Bandit"
-    description: Juego de acción-horror-sigilo con toques de survival y un estilo visual genial.
-    url: https://store.steampowered.com/app/1076280/Showdown_Bandit/
+  - title: "Overcooked!"
+    description: El simulador de restaurantes más divertido. Aprovecha que está gratis por tiempo limitado.
+    url: https://www.epicgames.com/store/en-US/product/overcooked/home
   - title: Epic Store
     description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
     url: https://www.epicgames.com/store/
