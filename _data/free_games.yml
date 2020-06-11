@@ -1,7 +1,13 @@
 seasonal:
-  - title: "Overcooked!"
-    description: El simulador de restaurantes más divertido. Aprovecha que está gratis por tiempo limitado.
-    url: https://www.epicgames.com/store/en-US/product/overcooked/home
+  - title: "ARK: Survival Evolved"
+    description: El género survival nunca había sido llevado a un extremo realista... o no tanto. Puedes montar dinosaurios con cohetes!
+    url: https://www.epicgames.com/store/en-US/product/ark/home
+  - title: "Samurai Shodown: NEOGEO Collection"
+    description: Son seis juegos en uno. Aprovecha y reclama ahora, serán tuyos para siempre.
+    url: https://www.epicgames.com/store/en-US/product/samurai-shodown-neogeo-collection/home
+  - title: "Tom Clancy's Rainbow Six® Siege"
+    description: Gratis para PC, XBOX One y Play Station 4 durante el fin de semana del 11 al 15 de Junio. Éste juego no requiere mucha descripción.
+    url: https://freeweekend.ubisoft.com/rainbow6-siege/
   - title: Epic Store
     description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
     url: https://www.epicgames.com/store/
