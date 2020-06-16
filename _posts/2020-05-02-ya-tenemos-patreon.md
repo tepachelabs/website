@@ -5,7 +5,7 @@ categories: [ patreon ]
 image: https://i.imgur.com/uUbgtrA.png
 featured: true
 external: true
-link: https://www.patreon.com/elhongoverde
+link: https://www.patreon.com/batosjugando
 ---
 
 Otra manera de apoyar al desarrollo de éste hermoso proyecto, es invitándonos una taza de café.
