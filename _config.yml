@@ -25,6 +25,8 @@ menu:
   - title: Patreon
     url: https://www.patreon.com/batosjugando
     external: true
+  - title: Juegathon
+    url: /juegathon2020
 
 # Sidebar > Cyber-Amigos
 cyber-amigos:
