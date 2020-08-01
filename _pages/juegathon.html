@@ -1,8 +1,89 @@
 ---
-layout: page
+layout: default
 title: Juegathon
 comments: true
 permalink: /juegathon
 ---
+<section class="sky intro full-width">
+    <div class="wrapintro">
+        <img src="https://i.imgur.com/9kroIU7.png" alt="Juegathon 2020 Intro Logo"/>
+        <h2 class="lead">Nuestro evento principal para apoyar y crear comunidad.</h2>
+        <p>Este es un maratón de videojuegos local en el que los organizadores y participantes participaran en videojuegos por un periodo de 24 horas seguidas con relevos y en diferentes presentaciones.</p>
+        <p><i>Hosts: Batos Jugando</i></p>
+        <p><strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeY3aMSqrLBOseceI1fcUVwnp0eZBgGlbwF19gU-0y3fdNkeg/viewform?embedded=true">Registrate aca!</a></strong></p>
+    </div>
+</section>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3aMSqrLBOseceI1fcUVwnp0eZBgGlbwF19gU-0y3fdNkeg/viewform?embedded=true" width="640" height="1720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<section class="recent-posts row">
+    <div class="col-sm-12">
+
+        <div class="section-title">
+            <h2><span>Participantes</span></h2>
+        </div>
+
+        <div id="juegathon" class="row">
+            {% for participant in site.data.juegathon.participants %}
+            <div class="participant text-center">
+                <div>
+                    <img src="{{participant.avatar_url}}"/>
+                </div>
+                <button type="button" class="text-center" data-toggle="modal" data-target="#participant-{{forloop.index}}">{{participant.name}}</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="participant-{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="participant-{{forloop.index}}" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{participant.name}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="participant text-center">
+                            <img src="{{participant.avatar_url}}"/>
+                            <p class="text-center">{{participant.description}}</p>
+                            {% if participant.favorite_game != nil %}
+                            <hr/>
+                            <p><i class="fa fa-lg fa-star" aria-hidden="true"></i><i class="fa fa-lg fa-gamepad"></i> - {{participant.favorite_game}}</p>
+                            {% endif %}
+                            <hr/>
+                            <div class="row social-media">
+                                {% if participant.twitter_username != nil %}
+                                <div class="col text-center">
+                                    <a href="https://twitter.com/{{participant.twitter_username}}"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a>
+                                </div>
+                                {% endif %}
+                                {% if participant.twitch_username != nil %}
+                                <div class="col text-center">
+                                    <a href="https://twitch.tv/{{participant.twitch_username}}"><i class="fa fa-lg fa-twitch" aria-hidden="true"></i></a>
+                                </div>
+                                {% endif %}
+                                {% if participant.other_link != nil %}
+                                <div class="col text-center">
+                                    <a href="{{participant.other_link}}"><i class="fa fa-lg fa-globe" aria-hidden="true"></i></a>
+                                </div>
+                                {% endif %}
+                            </div>
+                            <hr/>
+                            <p>Participaciones: {{participant.events | join: ', '}} </p>
+                            <!-- <p>Participaciones: {% for event in participant.events %} {{event}} {%endfor%}</p> -->
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- <hr/>
+
+<h2>Registro</h2>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3aMSqrLBOseceI1fcUVwnp0eZBgGlbwF19gU-0y3fdNkeg/viewform?embedded=true" width="640" height="1720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->

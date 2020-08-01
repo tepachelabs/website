@@ -1,0 +1,66 @@
+participants:
+    - name: Jose Salcido
+      avatar_url: https://i.imgur.com/yPFN6Jp.png
+      description: Co-Fundador de Batos Jugando y Juegathon, le dicen Mr Oso, le gusta cocinar y ayudar a la gente
+      favorite_game: Harvest Moon
+      twitter_username: jmsalcido
+      twitch_username: jmsalcido
+      other_link: https://jmsalcido.dev/
+      events:
+        - 2019
+        - 2020
+    - name: Antonio Martinez
+      avatar_url: https://i.imgur.com/Wfmsg1a.png
+      description: Co-Fundador de Batos Jugando y Juegathon, musico, hace video juegos, desarrolla software, hace de todo
+      favorite_game: Megaman X saga
+      twitter_username: _tonymtz
+      twitch_username: pozolitomx
+      other_link: https://gatomocho.com
+      events:
+        - 2019
+        - 2020
+    - name: Christian Samaniego
+      avatar_url: https://i.imgur.com/Wxzo8Qp.png
+      description: Bato Jugando, Streamer, mejor conocido como el ChrisAquila en Twitch, arma teclados y le gusta la buena vida
+      favorite_game: Dark Souls
+      twitter_username: ChrisRubiano42
+      twitch_username: chrisaquila
+      other_link: https://chrisrubiano.github.io/
+      events:
+        - 2019
+    - name: Alberto Ruiz
+      avatar_url: https://i.imgur.com/KfDAOvl.png
+      description: Compa de los batos jugando
+      favorite_game: 
+      twitter_username: aruizrguez
+      twitch_username: 
+      other_link: 
+      events:
+        - 2019
+    - name: Juan Bojorquez
+      avatar_url: https://i.imgur.com/mco0uEI.png
+      description: Compa de los batos jugando
+      favorite_game: 
+      twitter_username: JuanBojrquez
+      twitch_username: 
+      other_link:
+      events:
+        - 2019
+    - name: Kalolo
+      avatar_url: https://i.imgur.com/pcWzmoi.png
+      description: Cazacheves, desarrollador de software
+      favorite_game: 
+      twitter_username: kalolo
+      twitch_username: 
+      other_link:
+      events:
+        - 2019
+    - name: Mike Muciño
+      avatar_url: https://i.imgur.com/uaQkKTJ.png
+      description: Cazacheves, Maleducados
+      favorite_game: 
+      twitter_username: mikemucino
+      twitch_username: 
+      other_link: 
+      events:
+        - 2019
