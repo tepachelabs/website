@@ -1,0 +1,17 @@
+data:
+  - name: Nueva Era
+    description: Español, Relax, no PvP, no robar, respetar áreas ajenas.
+    banner_url: http://status.mclive.eu/Nueva Era - Servidor chill, no PvP/192.95.20.110/25607/banner.png
+    address: 192.95.20.110:25607
+    rules:
+      - Servidor chill, no PvP
+      - No robar items ajenos
+      - No destruir edificaciones ajenas
+  - name: Pokemon x Minecraft
+    description: Mod Pixelmon
+    banner_url: http://status.mclive.eu/Pixelmon/135.148.30.67/25583/banner.png
+    address: 135.148.30.67:25583
+    rules:
+      - No PvP, si duelos pokemon
+      - No robar items ajenos
+      - No destruir edificaciones ajenas

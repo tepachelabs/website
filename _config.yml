@@ -19,8 +19,8 @@ menu:
     url: /podcast
   - title: Quedate en Casa
     url: /en-casa
-  - title: Juegathon
-    url: /juegathon
+  - title: Minecraft
+    url: /minecraft
   - title: Discord
     url: http://discord.batosjugando.com
     external: true

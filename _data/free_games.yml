@@ -1,10 +1,4 @@
 seasonal:
-  - title: "ARK: Survival Evolved"
-    description: El género survival nunca había sido llevado a un extremo realista... o no tanto. Puedes montar dinosaurios con cohetes!
-    url: https://www.epicgames.com/store/en-US/product/ark/home
-  - title: "Samurai Shodown: NEOGEO Collection"
-    description: Son seis juegos en uno. Aprovecha y reclama ahora, serán tuyos para siempre.
-    url: https://www.epicgames.com/store/en-US/product/samurai-shodown-neogeo-collection/home
   - title: Epic Store
     description: Epic store siempre tiene juegos gratuitos que cambian semana a semana, vale la pena echar un ojo cada tanto.
     url: https://www.epicgames.com/store/
@@ -22,12 +16,6 @@ seasonal:
     url: https://free.ubisoft.com/
 
 permanent:
-  - title: League of Legends
-    description: Plays por la gloria, o ARAM de desempance. El que siempre terminamos jugando.
-    url: http://leagueoflegends.com/
-    image: https://i.imgur.com/3c3vZyI.png
-    platforms: PC
-    author: Pozolito
   - title: Valorant
     description: El nuevo arena shooter de Riot. Muy buen juego, pero conseguirlo requerirá que veas otros streams.
     url: https://playvalorant.com/
@@ -39,18 +27,6 @@ permanent:
     url: https://lan.leagueoflegends.com/es/featured/events/teamfight-tactics
     image: https://i.imgur.com/zdFod4z.png
     platforms: PC, Android, iOS
-    author: Pozolito
-  - title: Paladins
-    description: Arena shooter muy semejante a Overwatch, pero gratis. A pesar de parecer clon, es muy bueno.
-    url: https://www.paladins.com/
-    image: https://i.imgur.com/9mz2UXr.png
-    platforms: PC, Xbox One, PlayStation 4, Switch
-    author: Pozolito
-  - title: Heroes of the Storm
-    description: El MOBA de Blizzard. Muy diferente a otros como LoL, sus partidas se basan en misiones y son más rápidas.
-    url: https://heroesofthestorm.com/
-    image: https://i.imgur.com/lJBZDAP.png
-    platforms: PC
     author: Pozolito
   - title: Slither.io
     description: Juego multijugador masivo de gusanos. Tienes que comerte a los demás.
