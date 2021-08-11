@@ -5,7 +5,7 @@ description: "Somos un grupo de fanáticos de los videojuegos, transmitimos nues
 meta_description: "Somos un grupo de fanáticos de los videojuegos, transmitimos nuestras partidas por streaming, publicamos un podcast semanal llamado El Hongo Verde, componemos música, creamos videojuegos, a veces también publicamos arte digital, etc. Bien inquietos somos los Batos Jugando."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-paginate: 14
+paginate: 16
 baseurl: '/'
 email: 'hola@gatomocho.com'
 google_analytics: 'UA-165370115-1'
